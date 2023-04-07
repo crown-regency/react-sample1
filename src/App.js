@@ -35,10 +35,6 @@ const App = () => {
       return [expense, ...prevExpenses];
     });
   };
-  console.log('expenses::',expenses)
-  // const AddExpenseHandler = (expense) => {
-  //   console.log('app js::', expense)
-  // }
 
   return (
     <div>
